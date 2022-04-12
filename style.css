@@ -1,0 +1,46 @@
+body {
+    background-color: aqua;
+}
+
+.profile-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    height: auto;
+    max-width: 230px;
+    border-radius: 50%;
+    border: 5px solid skyblue;
+}
+
+li a {
+    font-size: x-large;
+    text-decoration: none;
+    color:  white;
+    border-bottom: 6px solid white;
+    padding-bottom: 6px;
+}
+
+li a:hover {
+    color: skyblue;
+    box-shadow: none;
+    border-bottom: 6px solid skyblue;
+}   
+
+ul {
+    position: center;
+    display: inline;
+    list-style-type: none;
+}   
+
+li {
+    float: left;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+.profile-name {
+    text-align: center;
+    padding: 5%;
+    font-size: 20px;
+}
